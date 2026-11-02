@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.6.1 — 2026-11-02
+
+- **Sửa lỗi kích hoạt license**: bộ cài v0.6.0 mang theo backend cũ (v0.3.0) dùng product khác nên key 2T Lab bị báo "License không hợp lệ: invalid_license" và thiếu tác vụ Add âm. Bản này đóng gói đúng backend 0.6.1. Ai đã cài v0.6.0 chỉ cần cập nhật rồi kích hoạt lại.
+- Quy trình đóng gói: `npm run desktop:build` giờ tự biên dịch backend trước khi build Tauri, không thể lệch phiên bản nữa.
+
 ## v0.6.0 — 2026-11-02
 
 - **Tác vụ mới: Add âm** — thêm audio track cho video đã có sẵn trên kênh (port trang "Thêm âm thanh" của Reup Automation).
