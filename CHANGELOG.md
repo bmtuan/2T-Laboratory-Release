@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.8.8 — 2026-11-03
+
+- **Add âm: xoá video ngay trong bảng quét** — rê chuột lên dòng video, bấm thùng rác để xoá vĩnh viễn video đó trên YouTube (có hộp xác nhận). Dòng đã xoá được gạch ngang và lưu lại trong job. Chỉ dùng khi job đã chạy xong.
+- **Kênh: chép tên kênh** — bôi đen được tên kênh trong bảng, hoặc bấm biểu tượng sao chép cạnh tên khi rê chuột.
+
 ## v0.8.7 — 2026-11-03
 
 - **Add âm: xoá tất cả bản lồng tiếng hiện có** — mục "Bản lồng tiếng hiện có, trước khi thêm" cho chọn một trong ba: giữ nguyên, xoá bản lỗi / đang xử lý (như trước), hoặc **xoá tất cả bản hiện có** rồi thêm lại đủ các ngôn ngữ đã cấu hình.
