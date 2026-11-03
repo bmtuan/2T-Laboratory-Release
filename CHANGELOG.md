@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.8.1 — 2026-11-03
+
+- Cài đặt → Cập nhật phần mềm: ghi chú phiên bản mới hiển thị đúng định dạng Markdown (đậm, danh sách, link) thay vì chữ thô.
+- Đóng gói: `npm version` đồng bộ cả phiên bản trong backend/uv.lock.
+
 ## v0.8.0 — 2026-11-03
 
 - **Tài khoản: profile Chrome riêng cho từng tài khoản** — mỗi tài khoản Google có một profile Chrome riêng, đăng nhập một lần dùng mãi.
