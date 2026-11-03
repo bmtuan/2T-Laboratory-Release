@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.8.4 — 2026-11-03
+
+- **Add âm: cột "Âm hiện có"** — bảng video hiện số audio track của từng video bằng icon: tích xanh đã xử lý, vòng xoay đang xử lý, X đỏ lỗi, kèm số ngôn ngữ còn thiếu. Rê chuột xem từng ngôn ngữ và trạng thái gốc của Studio.
+- **Add âm: quét không cần folder nhạc** — nút **Quét + ghép** chỉ cần kênh và loại video. Chưa chọn folder nhạc vẫn quét được video và âm hiện có, chỉ chưa ghép. Nút **Add âm** vẫn yêu cầu folder nhạc và ngôn ngữ.
+
 ## v0.8.3 — 2026-11-03
 
 - **Flow xóa back: Lịch sử xoá trong app** — không ghi file txt vào folder output nữa. Mỗi video sau khi xoá được lưu lại và xem ở tab **Lịch sử** ngay trên trang Flow xóa back.
