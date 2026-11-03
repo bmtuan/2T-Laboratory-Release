@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.5 — 2026-11-03
+
+- **Lịch sử xóa back: cột "Đã qua"** — số ngày kể từ lúc xoá video, tô màu theo mốc: dưới 10 ngày đỏ, 10–20 ngày vàng, trên 20 ngày xanh. Rê chuột xem số ngày chính xác.
+
 ## v0.8.4 — 2026-11-03
 
 - **Add âm: cột "Âm hiện có"** — bảng video hiện số audio track của từng video bằng icon: tích xanh đã xử lý, vòng xoay đang xử lý, X đỏ lỗi, kèm số ngôn ngữ còn thiếu. Rê chuột xem từng ngôn ngữ và trạng thái gốc của Studio.
