@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.11 — 2026-11-03
+
+- **Flow add âm: không add lại track đã lên** — khi request add báo lỗi, flow hỏi YouTube trước; track của ngôn ngữ đó đã có thì tính thành công ngay, không add thêm lần nào. Chỉ thử lại khi track thật sự chưa có.
+
 ## v0.8.10 — 2026-11-03
 
 - **Flow add âm: hết báo thất bại dù đã add thành công** — khi request add track lỗi sau khi YouTube đã nhận (ví dụ upload file âm bị timeout), flow nay thử lại tối đa 4 lần như tác vụ Add âm; lần thử lại thấy track "đã có" sẽ tính là thành công.
