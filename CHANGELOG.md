@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.8.0 — 2026-11-03
+
+- **Tài khoản: profile Chrome riêng cho từng tài khoản** — mỗi tài khoản Google có một profile Chrome riêng, đăng nhập một lần dùng mãi.
+  - Quét đăng nhập chạy trên profile của tài khoản, lưu tên / ảnh Google và cookie dự phòng.
+  - Nút **Mở trình duyệt** bật Chrome thật với profile của tài khoản (mặc định vào Gmail); chưa có profile thì tự tạo từ cookie đã lưu.
+  - Cài đặt: chọn thư mục chứa profile và trang mở mặc định; xoá profile theo từng tài khoản.
+  - Xem chi tiết các kênh của tài khoản: link, tên, logo, số subscriber.
+  - Quét tài khoản chạy tối đa 8 tài khoản cùng lúc, cửa sổ Chrome tự xếp trên màn hình.
+- **Hàng đợi job** — thêm job mới khi đang có job chạy, job cùng loại xếp hàng chờ; thanh hàng đợi ở trang tác vụ để xem / dừng từng job.
+  - Cài đặt: chỉnh số job chạy song song theo từng loại tác vụ, đổi được ngay khi đang chạy.
+  - Không cho hai job cùng loại xử lý cùng một kênh; Flow add âm giữ input riêng mỗi job.
+- **Lên lịch: quét trạng thái quảng cáo** — bước đặt lịch không còn tự bật quảng cáo và đặt mốc tự động. Video đang bật quảng cáo lúc quét được chèn mốc theo đúng cấu hình như tác vụ Chèn quảng cáo.
+  - Thêm nút **Xoá hết** video khỏi bảng.
+- Add âm, Flow add âm: nhớ folder nhạc và preset ngôn ngữ theo kênh, dùng chung giữa hai trang.
+- Lên lịch, Chèn quảng cáo: tiêu đề video dài cắt ở giữa, nới cột checkbox cho dễ bấm.
+
 ## v0.7.0 — 2026-11-03
 
 - **Tác vụ mới: Lên lịch** — đặt giờ công khai cho video nháp / riêng tư / không công khai (port trang "Lên lịch" của Reup Automation).
