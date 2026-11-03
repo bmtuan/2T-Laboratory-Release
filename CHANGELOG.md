@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.7 — 2026-11-03
+
+- **Add âm: xoá tất cả bản lồng tiếng hiện có** — mục "Bản lồng tiếng hiện có, trước khi thêm" cho chọn một trong ba: giữ nguyên, xoá bản lỗi / đang xử lý (như trước), hoặc **xoá tất cả bản hiện có** rồi thêm lại đủ các ngôn ngữ đã cấu hình.
+
 ## v0.8.6 — 2026-11-03
 
 - **Sửa quét kênh bị sót** — tài khoản nhiều kênh trước đây có thể chỉ quét được 1–2 kênh khi Chrome còn đăng nhập (Studio mở vào kênh dùng lần cuối nên các kênh đứng trước bị bỏ qua). Giờ quét duyệt đủ mọi mục trong danh sách chuyển kênh và chờ Studio chuyển xong mới lấy thông tin. Log job ghi "Đã quét N kênh từ M mục" để đối chiếu.
