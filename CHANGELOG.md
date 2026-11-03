@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.6 — 2026-11-03
+
+- **Sửa quét kênh bị sót** — tài khoản nhiều kênh trước đây có thể chỉ quét được 1–2 kênh khi Chrome còn đăng nhập (Studio mở vào kênh dùng lần cuối nên các kênh đứng trước bị bỏ qua). Giờ quét duyệt đủ mọi mục trong danh sách chuyển kênh và chờ Studio chuyển xong mới lấy thông tin. Log job ghi "Đã quét N kênh từ M mục" để đối chiếu.
+
 ## v0.8.5 — 2026-11-03
 
 - **Lịch sử xóa back: cột "Đã qua"** — số ngày kể từ lúc xoá video, tô màu theo mốc: dưới 10 ngày đỏ, 10–20 ngày vàng, trên 20 ngày xanh. Rê chuột xem số ngày chính xác.
