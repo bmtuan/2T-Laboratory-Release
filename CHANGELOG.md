@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.9 — 2026-11-03
+
+- **Add âm: nút thùng rác chỉ bỏ video khỏi danh sách** — sửa lại so với v0.8.8: bấm thùng rác trên một dòng chỉ loại video đó khỏi kết quả quét, **không xoá video trên YouTube**. Video đã loại được ghi nhớ, các lần quét / add sau tự bỏ qua; khối "Đang bỏ qua N video" có nút **Quét lại tất cả** để bỏ loại trừ.
+
 ## v0.8.8 — 2026-11-03
 
 - **Add âm: xoá video ngay trong bảng quét** — rê chuột lên dòng video, bấm thùng rác để xoá vĩnh viễn video đó trên YouTube (có hộp xác nhận). Dòng đã xoá được gạch ngang và lưu lại trong job. Chỉ dùng khi job đã chạy xong.
