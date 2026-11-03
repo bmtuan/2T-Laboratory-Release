@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.7.0 — 2026-11-03
+
+- **Tác vụ mới: Lên lịch** — đặt giờ công khai cho video nháp / riêng tư / không công khai (port trang "Lên lịch" của Reup Automation).
+  - Quét video chưa có lịch của nhiều kênh, tuỳ chọn chỉ giữ video có ít nhất n bản lồng tiếng thành công; thấy số video mỗi kênh đã lên lịch sẵn.
+  - Nhập giờ từng video hoặc "Đặt giờ hàng loạt" (ngày bắt đầu + khung giờ + cách nhau N ngày). YouTube tự công khai khi tới giờ, không cần mở app.
+  - "Kiểm tra lịch hôm nay" đánh dấu kênh hôm nay chưa có video lên lịch hay công khai.
+  - Bật AI để viết lại tiêu đề 80-99 ký tự và mô tả (cần license đã kích hoạt), và tạo thumbnail 1280x720 bằng Google Flow (prompt từ tiêu đề hoặc giống ảnh Google) trong cùng lượt lên lịch.
+- **Tác vụ mới: Chèn quảng cáo** — đặt mốc quảng cáo giữa video (port trang "Set Ads" của YoutubeAutomationZ).
+  - Quét video theo quyền riêng tư của nhiều kênh, hoặc dán ID / link video.
+  - Mốc cố định `hh:mm:ss` (chip, bấm để bỏ) hoặc cách đều mỗi N phút; mốc vượt thời lượng video tự bị bỏ.
+  - Tuỳ chọn **Vạch đầu cuối** (quảng cáo đầu và cuối video) và bật quảng cáo cho video trước khi chèn.
+- **Studio → Tài khoản Flow** — quản lý tài khoản Google Flow dùng tạo thumbnail ngay trong app, kho dùng chung với Reup Automation: thêm (đăng nhập Google trong Chrome), làm mới phiên, bật / tắt, xoá.
+- Trang Kênh: cột **Check Advanced** hiện trạng thái Advanced features (cơ bản / bậc trung / nâng cao) của từng kênh, kiểm tra được hàng loạt.
+- Ẩn cửa sổ cmd nháy lên khi render gọi ffprobe / ffmpeg.
+- Link tải bản mới nhất cố định: `releases/latest/download/2T.Lab_x64-setup.exe`.
+
 ## v0.6.1 — 2026-11-02
 
 - **Sửa lỗi kích hoạt license**: bộ cài v0.6.0 mang theo backend cũ (v0.3.0) dùng product khác nên key 2T Lab bị báo "License không hợp lệ: invalid_license" và thiếu tác vụ Add âm. Bản này đóng gói đúng backend 0.6.1. Ai đã cài v0.6.0 chỉ cần cập nhật rồi kích hoạt lại.
