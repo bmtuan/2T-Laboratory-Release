@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.8.10 — 2026-11-03
+
+- **Flow add âm: hết báo thất bại dù đã add thành công** — khi request add track lỗi sau khi YouTube đã nhận (ví dụ upload file âm bị timeout), flow nay thử lại tối đa 4 lần như tác vụ Add âm; lần thử lại thấy track "đã có" sẽ tính là thành công.
+- **Add âm: bỏ video chỉ trong đợt chạy** — bấm thùng rác chỉ loại video khỏi kết quả quét đang xem; bấm **Add âm** từ kết quả đó sẽ bỏ qua chúng. Không còn ghi nhớ sang lần sau: quét lại sẽ liệt kê đủ.
+
 ## v0.8.9 — 2026-11-03
 
 - **Add âm: nút thùng rác chỉ bỏ video khỏi danh sách** — sửa lại so với v0.8.8: bấm thùng rác trên một dòng chỉ loại video đó khỏi kết quả quét, **không xoá video trên YouTube**. Video đã loại được ghi nhớ, các lần quét / add sau tự bỏ qua; khối "Đang bỏ qua N video" có nút **Quét lại tất cả** để bỏ loại trừ.
