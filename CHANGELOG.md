@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.8.2 — 2026-11-03
+
+- Kích hoạt: hiển thị thêm số kênh đã quét của license trên máy này.
+- Cải thiện bước kiểm tra license định kỳ và sau khi quét tài khoản.
+
 ## v0.8.1 — 2026-11-03
 
 - Cài đặt → Cập nhật phần mềm: ghi chú phiên bản mới hiển thị đúng định dạng Markdown (đậm, danh sách, link) thay vì chữ thô.
