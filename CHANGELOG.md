@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.8.3 — 2026-11-03
+
+- **Flow xóa back: Lịch sử xoá trong app** — không ghi file txt vào folder output nữa. Mỗi video sau khi xoá được lưu lại và xem ở tab **Lịch sử** ngay trên trang Flow xóa back.
+  - Lọc theo hôm nay / 7 ngày / 30 ngày / tất cả, theo kênh, theo trạng thái; tìm theo video id, nhạc hoặc file gốc; nhóm theo ngày.
+  - Ghi cả các lần **xoá lỗi** (video vẫn còn trên kênh) kèm link để xoá tay.
+  - Nút **Xuất CSV** theo bộ lọc đang chọn (mở được bằng Excel) và **Dọn cũ** để xoá dòng cũ hơn 90 ngày.
+  - Tab tự cập nhật khi flow đang chạy xoá thêm video.
+- **Kênh: cột Subs** — số subscriber của từng kênh lấy từ YouTube Studio (không mở Chrome), rê chuột xem thêm số video, lượt xem và thời điểm lấy.
+  - Tự lấy ngay sau khi quét tài khoản; nút **Lấy subs** trên thanh công cụ, thanh chọn hàng loạt và từng dòng để cập nhật lại.
+  - Kết quả được nhớ giữa các lần mở app; mở hộp "Kênh của tài khoản" cũng cập nhật vào cột.
+- **Kênh: sắp xếp theo cột** — bấm tiêu đề Subs, Advanced hoặc Nhóm để sắp xếp tăng / giảm, bấm lần nữa để bỏ. Kênh chưa có số liệu hoặc chưa phân nhóm luôn nằm cuối.
+
 ## v0.8.2 — 2026-11-03
 
 - Kích hoạt: hiển thị thêm số kênh đã quét của license trên máy này.
