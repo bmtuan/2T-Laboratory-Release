@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.15 — 2026-11-04
+
+- **Lên lịch: bố cục mới dễ nhìn hơn** — kênh và tuỳ chọn xếp ở trên (thu gọn được), bảng video dùng toàn bộ chiều rộng với cột Kênh riêng; loại video, quảng cáo và trạng thái hiện dạng chip màu. Đặt giờ hàng loạt chuyển lên ngay trên bảng, thêm lọc bảng theo kênh.
+- **Lên lịch: bảng kênh dạng thẻ** — mỗi kênh hiện trạng thái lịch hôm nay (đã có / chưa có, tô vàng kênh chưa có), số video trong bảng, số video đã lên lịch sẵn trên YouTube và lịch xa nhất. Có tìm kênh và lọc theo nhóm.
+- **Lên lịch: cột Lồng tiếng thống kê như Add âm** — quét luôn lấy thông tin lồng tiếng, cột hiện số bản đã xử lý xong / đang xử lý / lỗi, rê chuột xem từng ngôn ngữ.
+
 ## v0.8.14 — 2026-11-04
 
 - **Lên lịch: đặt giờ hàng loạt theo từng kênh** — khi chọn nhiều kênh, mỗi kênh có dãy lịch riêng: video đầu của từng kênh vào đúng ngày bắt đầu, video kế tiếp của kênh đó cách N ngày. Trước đây các video bị xếp nối đuôi nhau qua mọi kênh, nên kênh sau phải chờ hết lịch của kênh trước.
