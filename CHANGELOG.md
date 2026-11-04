@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.12 — 2026-11-04
+
+- **Flow add âm / Add âm: hết báo thất bại dù track đã lên** — theo đúng cách TV Automation xử lý: YouTube nhận đăng ký track là tính xong; lỗi khi đẩy file âm chỉ ghi log, không đánh dấu thất bại và không add lại.
+- **Flow: xem trước clip ngay khi chọn folder** — vừa chọn folder footage, khung bên phải hiện bảng clip sẽ xử lý (xen kẽ giữa các kênh như lúc chạy), kèm ghi chú kênh thiếu folder hoặc folder trống. Có nút chuyển qua lại với job gần nhất.
+- **Bảng video của job có cột Kênh** riêng thay cho chữ nhỏ dưới tên video.
+
 ## v0.8.11 — 2026-11-03
 
 - **Flow add âm: không add lại track đã lên** — khi request add báo lỗi, flow hỏi YouTube trước; track của ngôn ngữ đó đã có thì tính thành công ngay, không add thêm lần nào. Chỉ thử lại khi track thật sự chưa có.
