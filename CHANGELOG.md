@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.13 — 2026-11-04
+
+- **Flow add âm: sửa dứt điểm lỗi báo thất bại dù đã add xong** — tìm ra nguyên nhân thật: trình biên dịch của bản cài đặt dịch sai một câu lệnh trong bước add, nên bản 0.8.12 vẫn báo "thất bại cả N ngôn ngữ" dù mọi track đã lên YouTube. Chạy từ mã nguồn thì không gặp nên các bản trước không bắt được. Đã viết lại câu lệnh và kiểm chứng trên bản biên dịch.
+
 ## v0.8.12 — 2026-11-04
 
 - **Flow add âm / Add âm: hết báo thất bại dù track đã lên** — theo đúng cách TV Automation xử lý: YouTube nhận đăng ký track là tính xong; lỗi khi đẩy file âm chỉ ghi log, không đánh dấu thất bại và không add lại.
