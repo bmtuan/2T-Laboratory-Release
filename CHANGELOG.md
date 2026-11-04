@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.14 — 2026-11-04
+
+- **Lên lịch: đặt giờ hàng loạt theo từng kênh** — khi chọn nhiều kênh, mỗi kênh có dãy lịch riêng: video đầu của từng kênh vào đúng ngày bắt đầu, video kế tiếp của kênh đó cách N ngày. Trước đây các video bị xếp nối đuôi nhau qua mọi kênh, nên kênh sau phải chờ hết lịch của kênh trước.
+
 ## v0.8.13 — 2026-11-04
 
 - **Flow add âm: sửa dứt điểm lỗi báo thất bại dù đã add xong** — tìm ra nguyên nhân thật: trình biên dịch của bản cài đặt dịch sai một câu lệnh trong bước add, nên bản 0.8.12 vẫn báo "thất bại cả N ngôn ngữ" dù mọi track đã lên YouTube. Chạy từ mã nguồn thì không gặp nên các bản trước không bắt được. Đã viết lại câu lệnh và kiểm chứng trên bản biên dịch.
