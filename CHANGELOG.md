@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.16 — 2026-11-05
+
+- **Add âm: phân biệt bản lồng tiếng và bản lồng tiếng mô tả** — cột "Âm hiện có" (Add âm, Lên lịch) hiện riêng hai dòng Lồng tiếng / Mô tả với số bản xong, đang xử lý, lỗi; rê chuột để xem từng ngôn ngữ theo loại. Bấm Quét lại để thấy đúng loại.
+- **Add âm: add lại đúng bản bị xoá** — mỗi ngôn ngữ, bản lồng tiếng và bản mô tả được xét riêng: bản lồng tiếng bị xoá / lỗi được add lại mà vẫn giữ bản mô tả, và ngược lại. Trước đây chỉ cần một bản bất kỳ còn tốt là cả ngôn ngữ bị bỏ qua.
+- **Add âm: tuỳ chọn "Ưu tiên video public gần nhất"** — video public được xử lý trước, video mới public nhất đi đầu, các loại video khác xếp sau.
+
 ## v0.8.15 — 2026-11-04
 
 - **Lên lịch: bố cục mới dễ nhìn hơn** — kênh và tuỳ chọn xếp ở trên (thu gọn được), bảng video dùng toàn bộ chiều rộng với cột Kênh riêng; loại video, quảng cáo và trạng thái hiện dạng chip màu. Đặt giờ hàng loạt chuyển lên ngay trên bảng, thêm lọc bảng theo kênh.
