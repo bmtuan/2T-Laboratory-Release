@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.17 — 2026-11-05
+
+- **Tác vụ mới: Auto add âm** — quét các kênh đã chọn, chỉ liệt kê video có bản lồng tiếng hoặc bản lồng tiếng mô tả bị lỗi (cột Ghi chú ghi rõ bản nào lỗi). Bấm "Xoá + add lại" để xoá các bản lỗi rồi add lại đúng ngôn ngữ và loại đó bằng nhạc cùng thời lượng trong folder nhạc của kênh; bản còn tốt giữ nguyên. Mặc định quét video Công khai.
+- **Xoá bản lồng tiếng xử lý quá lâu** — tuỳ chọn mới ở Add âm và Auto add âm: bản đang xử lý quá 4 giờ được xoá rồi add lại. Số giờ chỉnh trong mục Nâng cao.
+- **Cột "Âm hiện có"** — rê chuột để xem mỗi bản đang xử lý đã chờ bao lâu.
+
 ## v0.8.16 — 2026-11-05
 
 - **Add âm: phân biệt bản lồng tiếng và bản lồng tiếng mô tả** — cột "Âm hiện có" (Add âm, Lên lịch) hiện riêng hai dòng Lồng tiếng / Mô tả với số bản xong, đang xử lý, lỗi; rê chuột để xem từng ngôn ngữ theo loại. Bấm Quét lại để thấy đúng loại.
