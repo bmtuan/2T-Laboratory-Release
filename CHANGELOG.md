@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.18 — 2026-11-06
+
+- **Lên lịch: tuỳ chọn "có lồng tiếng, không bản nào lỗi"** — chỉ quét video đã có bản lồng tiếng (hoặc mô tả lồng tiếng) và không có bản nào bị YouTube từ chối / xử lý thất bại. Bật cùng "ít nhất n bản lồng tiếng" thì video phải đủ n bản xử lý xong và không có bản lỗi.
+
 ## v0.8.17 — 2026-11-05
 
 - **Tác vụ mới: Auto add âm** — quét các kênh đã chọn, chỉ liệt kê video có bản lồng tiếng hoặc bản lồng tiếng mô tả bị lỗi (cột Ghi chú ghi rõ bản nào lỗi). Bấm "Xoá + add lại" để xoá các bản lỗi rồi add lại đúng ngôn ngữ và loại đó bằng nhạc cùng thời lượng trong folder nhạc của kênh; bản còn tốt giữ nguyên. Mặc định quét video Công khai.
