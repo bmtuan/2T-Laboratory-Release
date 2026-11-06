@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.19 — 2026-11-06
+
+- **Lên lịch: sửa cột Lồng tiếng bị tràn** — số liệu Lồng tiếng / Mô tả không còn đè lên cột Giờ đăng; hai dòng thống kê thẳng hàng (cũng gọn hơn ở bảng Add âm).
+
 ## v0.8.18 — 2026-11-06
 
 - **Lên lịch: tuỳ chọn "có lồng tiếng, không bản nào lỗi"** — chỉ quét video đã có bản lồng tiếng (hoặc mô tả lồng tiếng) và không có bản nào bị YouTube từ chối / xử lý thất bại. Bật cùng "ít nhất n bản lồng tiếng" thì video phải đủ n bản xử lý xong và không có bản lỗi.
