@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.20 — 2026-11-08
+
+- **Thêm tài khoản: chỉ mở một cửa sổ Chrome mỗi lần** — bỏ tuỳ chọn "Quét cùng lúc" trong hộp thoại Thêm tài khoản Google; các tài khoản được đăng nhập và quét lần lượt. Quét lại ở trang Tài khoản vẫn chọn được số cửa sổ.
+
 ## v0.8.19 — 2026-11-06
 
 - **Lên lịch: sửa cột Lồng tiếng bị tràn** — số liệu Lồng tiếng / Mô tả không còn đè lên cột Giờ đăng; hai dòng thống kê thẳng hàng (cũng gọn hơn ở bảng Add âm).
