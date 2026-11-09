@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.8.21 — 2026-11-09
+
+- **Tài khoản Google ít bị Google khoá hơn** — đưa cách làm việc với Google về mức của TV Automation:
+  - Quét tài khoản lần lượt, mỗi lúc chỉ một cửa sổ Chrome, nghỉ ngẫu nhiên 2–5 giây giữa hai tài khoản. Bỏ tuỳ chọn "Quét cùng lúc" và xếp cửa sổ.
+  - Không gọi `accounts.google.com/ListAccounts`, không lưu cookie Google cấp tài khoản nữa (cookie đã lưu ở bản cũ được xoá khi nâng cấp). Tên và ảnh tài khoản là của kênh đầu tiên.
+  - Không nạp cookie vào profile Chrome. Quét luôn chạy trên Chrome tạm của Selenium, tách hẳn phiên trong profile khỏi cookie Studio app giữ.
+  - Sau khi quét app không tự gọi Studio. Số subscriber chỉ lấy khi bấm nút; hộp "Kênh" của tài khoản đọc từ số liệu đã lấy và có nút "Lấy số liệu". Các kiểm tra hàng loạt chạy tối đa 2 kênh cùng lúc.
+- **Profile Chrome là profile thật** — nút "Mở" tạo một "Profile N" ngay trong User Data của Chrome đang cài (hiện trong trình chọn profile của Chrome, đặt tên theo email), do chính Chrome tạo, không qua Selenium. Lần mở đầu vào trang đăng nhập Google đã điền sẵn email, có nút sao chép mật khẩu; các lần sau vào Gmail (đổi được ở Cài đặt → Trình duyệt tài khoản). Thư mục profile cũ của bản trước bị xoá một lần khi khởi động, nên cần đăng nhập Gmail lại cho các profile.
+- **Xoá tài khoản hàng loạt** — chọn nhiều tài khoản rồi bấm "Xoá" trên thanh chọn; tài khoản đang mở Chrome được giữ lại và báo riêng.
+- **"Đăng nhập lại" dùng được với kênh do Reup Automation quét** — thông tin đăng nhập được ghi lên dòng kênh trong channels.db (đúng cột Reup dùng); kênh chỉ có login do Reup ghi vẫn đăng nhập lại được từ 2T Lab. Xoá tài khoản xoá cả login đó, kênh và cookie Studio vẫn giữ.
+
 ## v0.8.20 — 2026-11-08
 
 - **Thêm tài khoản: chỉ mở một cửa sổ Chrome mỗi lần** — bỏ tuỳ chọn "Quét cùng lúc" trong hộp thoại Thêm tài khoản Google; các tài khoản được đăng nhập và quét lần lượt. Quét lại ở trang Tài khoản vẫn chọn được số cửa sổ.
