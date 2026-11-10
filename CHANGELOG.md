@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.22 — 2026-11-10
+
+- **Bỏ tính năng profile Chrome** — không còn nút "Mở", xoá profile hay mục "Trình duyệt tài khoản" trong Cài đặt. App chỉ lưu thông tin đăng nhập Gmail (mật khẩu mã hoá) để "Quét lại" / "Đăng nhập lại" kênh. Thư mục profile cũ của các bản trước được xoá khi khởi động; profile "Profile N" mà bản 0.8.21 đã tạo trong Chrome thì giữ nguyên, bạn tự xoá trong Chrome nếu muốn.
+- **Quét kênh giống Reup Automation từng bước** — cùng URL đăng nhập, cùng cờ Chrome, cùng cách duyệt danh sách chuyển kênh (bấm mục kế sau kênh đang active). Mục tiêu là hành vi với Google không khác gì Reup, vốn không bị khoá tài khoản.
+- **Duyệt đủ mọi kênh của tài khoản** — thêm lượt quét ngược các kênh nằm phía trên kênh Studio mở vào (cách của Reup bỏ sót), và chờ Studio thực sự chuyển kênh sau mỗi lần bấm nên không ghi nhầm kênh cũ. Log job ghi rõ "Đã quét M kênh từ N mục" để đối chiếu.
+
 ## v0.8.21 — 2026-11-09
 
 - **Tài khoản Google ít bị Google khoá hơn** — đưa cách làm việc với Google về mức của TV Automation:
