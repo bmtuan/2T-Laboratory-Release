@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.8.23 — 2026-11-12
+
+- Release v0.8.23
+- feat: stat
+- feat: stop hard-coding the AI model, let Licensify pick it
+  - Send no "model" to /ai/v1/chat/completions: the admin picks the model on
+    Licensify's AI page, so switching models needs no app release.
+  - The out-of-tokens warning logs the model actually used, read from the
+    X-Licensify-Model response header.
+  Requires a Licensify backend that accepts requests without a model (deploy the
+  backend first).
+
 ## v0.8.22 — 2026-11-10
 
 - **Bỏ tính năng profile Chrome** — không còn nút "Mở", xoá profile hay mục "Trình duyệt tài khoản" trong Cài đặt. App chỉ lưu thông tin đăng nhập Gmail (mật khẩu mã hoá) để "Quét lại" / "Đăng nhập lại" kênh. Thư mục profile cũ của các bản trước được xoá khi khởi động; profile "Profile N" mà bản 0.8.21 đã tạo trong Chrome thì giữ nguyên, bạn tự xoá trong Chrome nếu muốn.
