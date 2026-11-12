@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.24 — 2026-11-12
+
+- **Thêm tài khoản Flow: sửa lỗi Google chặn đăng nhập** — Chrome mở như trình duyệt thường nên không còn báo "This browser or app may not be secure". Đăng nhập Google xong, app tự đóng cửa sổ Chrome và lấy email, loại tài khoản (Ultra / Pro / Normal) và cookie.
+
 ## v0.8.23 — 2026-11-12
 
 - Release v0.8.23
