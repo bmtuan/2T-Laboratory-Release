@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.8.25 — 2026-11-13
+
+- Tác vụ mới **Phản hồi bình luận** (menu Tác vụ): trả lời các bình luận kênh chưa phản hồi trong Studio.
+  - Câu trả lời do AI viết (đúng ngôn ngữ của bình luận, có thể thêm ghi chú về kênh) hoặc chọn ngẫu nhiên từ danh sách câu mẫu.
+  - Tuỳ chọn thả tim và thích bình luận sau khi trả lời.
+  - Giới hạn số bình luận mỗi kênh, nghỉ ngẫu nhiên giữa hai lần trả lời; AI lỗi thì dùng câu dự phòng hoặc bỏ qua bình luận đó.
+
 ## v0.8.24 — 2026-11-12
 
 - **Thêm tài khoản Flow: sửa lỗi Google chặn đăng nhập** — Chrome mở như trình duyệt thường nên không còn báo "This browser or app may not be secure". Đăng nhập Google xong, app tự đóng cửa sổ Chrome và lấy email, loại tài khoản (Ultra / Pro / Normal) và cookie.
