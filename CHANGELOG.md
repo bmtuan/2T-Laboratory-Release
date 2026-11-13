@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.8.26 — 2026-11-13
+
+- Tác vụ mới **Xóa back** (menu Tác vụ): theo dõi kênh và xoá video mới ngay khi YouTube bắt đầu kiểm tra bản quyền, giống trang "Xóa - Back" của Reup Automation.
+  - Quét lại toàn bộ video các kênh đã chọn mỗi N giây (mặc định 10), chạy tới khi bấm Dừng.
+  - Chỉ xoá video được thấy trước khi kiểm tra bản quyền xong; video đã kiểm tra xong từ trước không bị đụng tới.
+  - Giới hạn số video xoá cùng lúc; mỗi video chỉ thử xoá một lần, kênh hết hạn cookie thì ngừng theo dõi.
+  - Video đã xoá (kể cả xoá lỗi) lưu ở tab **Lịch sử** của trang, chung với Flow xóa back.
+
 ## v0.8.25 — 2026-11-13
 
 - Tác vụ mới **Phản hồi bình luận** (menu Tác vụ): trả lời các bình luận kênh chưa phản hồi trong Studio.
