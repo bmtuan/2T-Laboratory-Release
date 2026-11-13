@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.27 — 2026-11-13
+
+- Sửa lỗi **quét kênh** của tài khoản: khi đăng nhập Studio mở vào kênh gần cuối danh sách, các kênh ở đầu danh sách bị bỏ sót.
+  - Giờ luôn chờ danh sách chuyển kênh tải xong, bắt đầu từ kênh đầu tiên rồi đi lần lượt xuống dưới.
+  - Quét xong mà vẫn thiếu kênh thì tự quét bổ sung các mục còn thiếu.
+
 ## v0.8.26 — 2026-11-13
 
 - Tác vụ mới **Xóa back** (menu Tác vụ): theo dõi kênh và xoá video mới ngay khi YouTube bắt đầu kiểm tra bản quyền, giống trang "Xóa - Back" của Reup Automation.
