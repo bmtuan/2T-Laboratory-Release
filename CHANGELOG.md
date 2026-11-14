@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.8.29 — 2026-11-14
+
+- Sửa lỗi **quét kênh** của tài khoản: ở trang chọn kênh sau khi đăng nhập, đôi khi app bấm nhầm vào mục "Không có kênh" (tài khoản Google chưa có kênh).
+  - Giờ chờ danh sách tải xong rồi chọn kênh thật đầu tiên; mục "Không có kênh" / "No channel" không bao giờ bị bấm.
+  - Tài khoản có mục đầu là kênh thật thì vẫn quét như cũ.
+  - Tài khoản không có kênh nào thì báo lỗi rõ ràng thay vì bấm vào mục đó.
+
 ## v0.8.28 — 2026-11-14
 
 - **Chèn quảng cáo**: tick **Vạch đầu cuối** thì không cần nhập mốc cố định nữa.
