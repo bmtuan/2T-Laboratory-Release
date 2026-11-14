@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.8.28 — 2026-11-14
+
+- **Chèn quảng cáo**: tick **Vạch đầu cuối** thì không cần nhập mốc cố định nữa.
+  - Để trống mốc: video chỉ nhận quảng cáo đầu và cuối, không có quảng cáo giữa video.
+  - Video quá ngắn, không mốc nào nằm trong thời lượng: vẫn được chèn quảng cáo đầu / cuối thay vì báo lỗi.
+  - Áp dụng cho cả phần chèn quảng cáo của **Lên lịch**.
+
 ## v0.8.27 — 2026-11-13
 
 - Sửa lỗi **quét kênh** của tài khoản: khi đăng nhập Studio mở vào kênh gần cuối danh sách, các kênh ở đầu danh sách bị bỏ sót.
