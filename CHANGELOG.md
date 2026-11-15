@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.8.30 — 2026-11-15
+
+- **Thumbnail "Giống ảnh Google"**: chữ trong ảnh (nếu có) giờ bắt buộc cùng ngôn ngữ với tiêu đề video và ảnh tham chiếu.
+- Sửa lỗi **quét kênh** làm kênh bị đổi nhóm:
+  - Kênh đang ở nhóm nào thì giữ nguyên nhóm đó khi quét / quét lại tài khoản.
+  - Nhóm chọn lúc quét chỉ áp cho kênh chưa có nhóm.
+  - **Đăng nhập lại** trên một dòng kênh không gán nhóm nữa; kênh mới tìm thấy nằm ở "Chưa phân nhóm".
+
 ## v0.8.29 — 2026-11-14
 
 - Sửa lỗi **quét kênh** của tài khoản: ở trang chọn kênh sau khi đăng nhập, đôi khi app bấm nhầm vào mục "Không có kênh" (tài khoản Google chưa có kênh).
