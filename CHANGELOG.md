@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.8.32 — 2026-11-16
+
+- **Auto add âm** tự chạy "Xoá + add lại" theo chu kỳ cho các kênh đã chọn, mặc định **4 giờ** một lần.
+  - Bật / tắt bằng ô **Tự động chạy mỗi N giờ** trên trang; bên cạnh hiện thời điểm lần chạy tới.
+  - Số giờ chỉnh trong **Nâng cao** (0.5 – 168 giờ).
+  - Chạy cả khi không mở trang, miễn là app đang mở; bấm chạy tay thì chu kỳ tính lại từ lần đó.
+  - Bỏ qua lượt khi đang có lần chạy dở hoặc chưa kênh nào có folder nhạc.
+
 ## v0.8.31 — 2026-11-16
 
 - **Phản hồi bình luận**: AI trả lời bằng đúng ngôn ngữ của người bình luận; bình luận không rõ ngôn ngữ thì trả lời bằng tiếng Anh.
