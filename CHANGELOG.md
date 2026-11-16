@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.34 — 2026-11-16
+
+- **Quét kênh** nhận ra đúng mục "không có kênh" ở mọi ngôn ngữ giao diện YouTube (tiếng Thái "ไม่มีช่อง", tiếng Nga, ...), không còn bấm nhầm vào tài khoản Google chưa có kênh.
+
 ## v0.8.33 — 2026-11-16
 
 - **Báo phiên bản mới**: app tự kiểm tra cập nhật lúc mở và mỗi giờ một lần.
