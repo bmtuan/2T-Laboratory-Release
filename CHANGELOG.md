@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.8.31 — 2026-11-16
+
+- **Phản hồi bình luận**: AI trả lời bằng đúng ngôn ngữ của người bình luận; bình luận không rõ ngôn ngữ thì trả lời bằng tiếng Anh.
+  - Không rõ ngôn ngữ: chỉ có emoji, ký hiệu, con số, tên riêng, quá ngắn hoặc trộn nhiều ngôn ngữ.
+
 ## v0.8.30 — 2026-11-15
 
 - **Thumbnail "Giống ảnh Google"**: chữ trong ảnh (nếu có) giờ bắt buộc cùng ngôn ngữ với tiêu đề video và ảnh tham chiếu.
