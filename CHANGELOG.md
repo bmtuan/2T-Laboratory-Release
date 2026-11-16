@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.33 — 2026-11-16
+
+- **Báo phiên bản mới**: app tự kiểm tra cập nhật lúc mở và mỗi giờ một lần.
+  - Có bản mới thì mục **Cài đặt** ở thanh bên sáng lên: icon đổi màu, có chấm đỏ và nhãn **Mới**.
+  - Vào Cài đặt là thấy sẵn ghi chú bản mới và nút **Tải và cài đặt**, không cần bấm kiểm tra.
+
 ## v0.8.32 — 2026-11-16
 
 - **Auto add âm** tự chạy "Xoá + add lại" theo chu kỳ cho các kênh đã chọn, mặc định **4 giờ** một lần.
