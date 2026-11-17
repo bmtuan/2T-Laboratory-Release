@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.35 — 2026-11-17
+
+- **Quét kênh** tự chọn kênh lại ở bảng chọn kênh hiện ngay sau khi đăng nhập (bỏ qua mục "No channel"), không phải bấm tay nữa.
+
 ## v0.8.34 — 2026-11-16
 
 - **Quét kênh** nhận ra đúng mục "không có kênh" ở mọi ngôn ngữ giao diện YouTube (tiếng Thái "ไม่มีช่อง", tiếng Nga, ...), không còn bấm nhầm vào tài khoản Google chưa có kênh.
