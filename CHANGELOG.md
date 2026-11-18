@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.37 — 2026-11-18
+
+- **Flow xóa back** không còn mất folder nhạc khi chuyển qua lại với Flow add âm (trước đây config của flow này bị lưu đè lên flow kia). Kênh đang trống folder sẽ tự lấy lại folder từ lần chạy gần nhất.
+
 ## v0.8.36 — 2026-11-18
 
 - **Lịch sử xóa back** có phân trang: chọn 50/100/200 dòng mỗi trang, chuyển trang bằng số trang hoặc nút trước/sau. Số dòng, "Xoá đang lọc" và số video mỗi ngày giờ tính trên toàn bộ bộ lọc.
