@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.36 — 2026-11-18
+
+- **Lịch sử xóa back** có phân trang: chọn 50/100/200 dòng mỗi trang, chuyển trang bằng số trang hoặc nút trước/sau. Số dòng, "Xoá đang lọc" và số video mỗi ngày giờ tính trên toàn bộ bộ lọc.
+
 ## v0.8.35 — 2026-11-17
 
 - **Quét kênh** tự chọn kênh lại ở bảng chọn kênh hiện ngay sau khi đăng nhập (bỏ qua mục "No channel"), không phải bấm tay nữa.
