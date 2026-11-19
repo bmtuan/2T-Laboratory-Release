@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.38 — 2026-11-19
+
+- **Kết nối backend** ổn định hơn: nếu backend dừng ngoài ý muốn, app tự khởi động lại và kết nối lại, không phải tắt mở app. Không còn bị "Mất kết nối" khi máy đang render và upload nặng.
+
 ## v0.8.37 — 2026-11-18
 
 - **Flow xóa back** không còn mất folder nhạc khi chuyển qua lại với Flow add âm (trước đây config của flow này bị lưu đè lên flow kia). Kênh đang trống folder sẽ tự lấy lại folder từ lần chạy gần nhất.
