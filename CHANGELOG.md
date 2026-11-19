@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.40 — 2026-11-19
+
+- **Add âm / Auto add âm**: nút ✕ để bỏ từng kênh khỏi danh sách (Auto add âm sẽ không xử lý kênh đó ở lần tự chạy sau). Folder nhạc và ngôn ngữ của kênh vẫn được giữ.
+
 ## v0.8.39 — 2026-11-19
 
 - **Flow add âm / Flow xóa back**: nút ✕ để bỏ từng kênh khỏi danh sách và nút "Bỏ chọn tất cả" (folder đã chọn của kênh vẫn được giữ).
