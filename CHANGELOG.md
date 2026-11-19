@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.8.39 — 2026-11-19
+
+- **Flow add âm / Flow xóa back**: nút ✕ để bỏ từng kênh khỏi danh sách và nút "Bỏ chọn tất cả" (folder đã chọn của kênh vẫn được giữ).
+- **Flow xóa back**: hiện số video đã xoá (và số lỗi) cạnh tên mỗi kênh.
+
 ## v0.8.38 — 2026-11-19
 
 - **Kết nối backend** ổn định hơn: nếu backend dừng ngoài ý muốn, app tự khởi động lại và kết nối lại, không phải tắt mở app. Không còn bị "Mất kết nối" khi máy đang render và upload nặng.
