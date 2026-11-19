@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.41 — 2026-11-19
+
+- **Auto add âm** bỏ qua các kênh chưa có folder nhạc và chỉ cảnh báo, các kênh còn lại vẫn chạy bình thường (trước đây cả lượt chạy bị chặn).
+
 ## v0.8.40 — 2026-11-19
 
 - **Add âm / Auto add âm**: nút ✕ để bỏ từng kênh khỏi danh sách (Auto add âm sẽ không xử lý kênh đó ở lần tự chạy sau). Folder nhạc và ngôn ngữ của kênh vẫn được giữ.
