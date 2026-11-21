@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.43 — 2026-11-21
+
+- **Flow add âm / Flow xóa back** có thêm tuỳ chọn "Xoá file output khi video đã xong hết các bước": file video đã render bị xoá ngay khi video hoàn tất. Video bị lỗi vẫn giữ file để chạy lại không phải render lại. Footage và nhạc gốc không bị xoá.
+
 ## v0.8.42 — 2026-11-21
 
 - **Auto add âm** có badge màu trên sidebar: xanh dương khi đang chạy, xanh lá nếu lần add âm gần nhất dưới 3 tiếng, vàng từ 3 đến dưới 6 tiếng, đỏ từ 6 tiếng trở lên.
