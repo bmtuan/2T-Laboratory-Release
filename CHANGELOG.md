@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.42 — 2026-11-21
+
+- **Auto add âm** có badge màu trên sidebar: xanh dương khi đang chạy, xanh lá nếu lần add âm gần nhất dưới 3 tiếng, vàng từ 3 đến dưới 6 tiếng, đỏ từ 6 tiếng trở lên.
+
 ## v0.8.41 — 2026-11-19
 
 - **Auto add âm** bỏ qua các kênh chưa có folder nhạc và chỉ cảnh báo, các kênh còn lại vẫn chạy bình thường (trước đây cả lượt chạy bị chặn).
