@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.46 — 2026-11-23
+
+- **Quét kênh:** khi đã đăng nhập xong mà Google vẫn bắt xác minh lại mật khẩu cho kênh (thường gặp ở kênh thương hiệu), app tự nhập lại mật khẩu, tự điền 2FA / email khôi phục nếu tài khoản có lưu, rồi lấy lại thông tin kênh. Trước đây kênh quét xong vẫn không chạy được tác vụ. Nếu xác minh không xong trong 3 phút, kênh vẫn được lưu và có thể quét lại sau.
+
 ## v0.8.45 — 2026-11-23
 
 - **Add âm / Auto add âm:** chỉnh được ở phần Nâng cao số video xử lý đồng thời mỗi kênh (mặc định 3, tối đa 20) và số âm add cùng lúc mỗi video (mặc định 10, tối đa 30). Mỗi lịch Auto add âm giữ giá trị riêng. Tăng thì nhanh hơn nhưng dễ bị YouTube giới hạn.
