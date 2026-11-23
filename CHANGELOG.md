@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.8.45 — 2026-11-23
+
+- **Add âm / Auto add âm:** chỉnh được ở phần Nâng cao số video xử lý đồng thời mỗi kênh (mặc định 3, tối đa 20) và số âm add cùng lúc mỗi video (mặc định 10, tối đa 30). Mỗi lịch Auto add âm giữ giá trị riêng. Tăng thì nhanh hơn nhưng dễ bị YouTube giới hạn.
+- **Danh sách lịch:** bỏ cột "Kết quả lần cuối" làm vỡ bảng khi tên video dài; xem chi tiết lần chạy bằng nút Xem chi tiết.
+
 ## v0.8.44 — 2026-11-23
 
 - **Auto add âm chạy theo lịch:** tạo nhiều lịch, mỗi lịch có tên, danh sách kênh, cấu hình (loại video, số video mỗi kênh, tuỳ chọn), chu kỳ và bật/tắt riêng. Tạo và sửa ở tab Cấu hình (ô Lịch → "+ Lịch mới"), có Quét bản lỗi, Lưu cấu hình và Chạy ngay; khung bên phải chỉ hiện các lần chạy của lịch đang xem.
