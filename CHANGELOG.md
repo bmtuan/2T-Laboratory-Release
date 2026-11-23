@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.8.44 — 2026-11-23
+
+- **Auto add âm chạy theo lịch:** tạo nhiều lịch, mỗi lịch có tên, danh sách kênh, cấu hình (loại video, số video mỗi kênh, tuỳ chọn), chu kỳ và bật/tắt riêng. Tạo và sửa ở tab Cấu hình (ô Lịch → "+ Lịch mới"), có Quét bản lỗi, Lưu cấu hình và Chạy ngay; khung bên phải chỉ hiện các lần chạy của lịch đang xem.
+- **Tab Danh sách lịch:** theo dõi mọi lịch, khung tô màu theo trạng thái (xanh dương: đang chạy, xanh lá: chạy dưới 3 giờ trước, vàng: 3–6 giờ, đỏ: hơn 6 giờ), kèm giờ chạy gần nhất, giờ cập nhật cấu hình và kết quả lần cuối.
+- **Lưu ý:** bỏ chế độ tự chạy theo kênh chọn tay ở trang Auto add âm cũ. Nếu trước đây bạn dùng chế độ này, hãy tạo một lịch mới với các kênh đó.
+- **Auto add âm quét mọi folder nhạc kênh từng dùng** khi Add âm / Flow add âm, nên video upload trước đó vẫn tìm được nhạc ở folder cũ. Có thể thêm hoặc bỏ folder cho từng kênh ở tab Cấu hình.
+- **Cảnh báo khi đóng app** nếu đang có lịch Auto add âm bật (lịch chỉ chạy khi app đang mở).
+
 ## v0.8.43 — 2026-11-21
 
 - **Flow add âm / Flow xóa back** có thêm tuỳ chọn "Xoá file output khi video đã xong hết các bước": file video đã render bị xoá ngay khi video hoàn tất. Video bị lỗi vẫn giữ file để chạy lại không phải render lại. Footage và nhạc gốc không bị xoá.
