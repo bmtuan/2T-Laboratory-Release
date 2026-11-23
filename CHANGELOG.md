@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.47 — 2026-11-23
+
+- **Flow add âm / Flow xóa back:** bấm vào job "Đang chạy" hoặc "Đang chờ" trên thanh hàng đợi giờ mở đúng job đó: khung phải hiện danh sách video và log của job, khung trái hiện cấu hình job đó đã chạy (chỉ xem). Bấm "Quay lại cấu hình" để về form cấu hình của bạn.
+
 ## v0.8.46 — 2026-11-23
 
 - **Quét kênh:** khi đã đăng nhập xong mà Google vẫn bắt xác minh lại mật khẩu cho kênh (thường gặp ở kênh thương hiệu), app tự nhập lại mật khẩu, tự điền 2FA / email khôi phục nếu tài khoản có lưu, rồi lấy lại thông tin kênh. Trước đây kênh quét xong vẫn không chạy được tác vụ. Nếu xác minh không xong trong 3 phút, kênh vẫn được lưu và có thể quét lại sau.
