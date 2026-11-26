@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.48 — 2026-11-26
+
+- **Quét kênh:** gặp kênh đã bị xóa (Studio chuyển sang trang kháng nghị `channel-appeal`) thì bỏ qua và quét tiếp các kênh còn lại, không dừng giữa chừng nữa. Ở trang chọn kênh sau đăng nhập, kênh bị xóa cũng được bỏ qua để chọn kênh khác; log cuối ghi rõ các kênh đã bị xóa.
+
 ## v0.8.47 — 2026-11-23
 
 - **Flow add âm / Flow xóa back:** bấm vào job "Đang chạy" hoặc "Đang chờ" trên thanh hàng đợi giờ mở đúng job đó: khung phải hiện danh sách video và log của job, khung trái hiện cấu hình job đó đã chạy (chỉ xem). Bấm "Quay lại cấu hình" để về form cấu hình của bạn.
